@@ -2,8 +2,8 @@ Create a repository on github named "python-test" and send us the link. you will
 
 ### Dataset selection:
 Use: https://github.com/swapniljariwala/nsepy
-Source OCLHV data for NSE stocks (INFY,TCS) between 2015-2016. Data level - Daily.
-Source OCLHV data for NIFTY IT index. Data level - Daily.
+> Source OCLHV data for NSE stocks (INFY,TCS) between 2015-2016. Data level - Daily.
+> Source OCLHV data for NIFTY IT index. Data level - Daily.
 
 ### Part 1:
 1. Create 4,16,....,52 week moving average(closing price) for each stock and index. This should happen through a function.
