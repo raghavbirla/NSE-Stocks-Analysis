@@ -1,4 +1,3 @@
-Create a repository on github named "python-test" and send us the link. you will upload your work to this repo.
 
 ### Dataset selection:
 Use: https://github.com/swapniljariwala/nsepy
@@ -24,20 +23,3 @@ For this section, you can use only bokeh. https://bokeh.pydata.org/en/latest/doc
 5. Mark closing Pricing shock without volume shock to identify volumeless price movement.
 6. Hand craft partial autocorrelation plot for each stock/index on upto all lookbacks on bokeh - sample reference - https://www.statsmodels.org/dev/generated/statsmodels.graphics.tsaplots.plot_pacf.html
 
-
-### Part 3 (data modelling - optional)
-For this section, you should use sklearn.
-
-1. Quick build any two models. Quick build is defined as grid search of less than 9 permutation combinations. You can choose the two options of multiple multivariate models from those mentioned below. The goal is to to predict INFY,TCS prices for tomorrow.  Models that you can choose:
-    1.1 http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LassoLars.html#sklearn.linear_model.LassoLars
-    1.2 http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression
-    1.3 http://scikit-learn.org/stable/modules/linear_model.html#ridge-regression
-    1.4 http://scikit-learn.org/stable/modules/svm.html#regression
-    1.5 http://scikit-learn.org/stable/modules/ensemble.html#regression
-2. Write testcases for the two models you have chose. Your testing should take atleast 5 time steps except today . your testcases must written using PYTEST.
-3. Prove your model does not violate any basic assumption. To understand "model assumptions", read
-https://www.albert.io/blog/key-assumptions-of-ols-econometrics-review/
-4. Select best performing model, and tune it - Demonstrate that your tuning has resulted in a clear difference between quick build and tuning.
-5. Your submission will be judged on MAPE of testing data.
-6. Extra credit - Nest a model to predict volume shock into your time series model - same conditions applied as above.
-7. Extra extra credit - Create a bare python file in the following fashion “ python stockpredictor.py ‘INFY’ “ should return prediction in less than 100 ms.
