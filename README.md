@@ -14,7 +14,7 @@ Use: https://github.com/swapniljariwala/nsepy
    3.4 Pricing shock without volume shock - based on points a & b - Make a 0/1 dummy time series.
 
 ### Part 2 (data visualization ):
-For this section, you can use only bokeh. https://bokeh.pydata.org/en/latest/docs/gallery.html
+For this section, Using only bokeh. https://bokeh.pydata.org/en/latest/docs/gallery.html
 
 1. Create timeseries plot of close prices of stocks/indices with the following features:
 2. Color timeseries in simple blue color.
